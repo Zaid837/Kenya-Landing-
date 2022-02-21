@@ -1,0 +1,104 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #ebebeb;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-pane {
+  width: 45%;
+  height: inherit;
+  overflow: hidden;
+}
+.left-pane .container {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px 0;
+}
+
+.left-pane .container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-pane .container header .logo h1 {
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.left-pane .container header .nav-button {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.left-pane .container section {
+  position: relative;
+  top: 8em;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.left-pane .container section .carousel-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.left-pane .container section .carousel-indicator span:nth-child(2) {
+  width: 110px;
+  height: 3px;
+  background-color: #000;
+  margin: 0 10px;
+}
+
+.left-pane .container section .content {
+  margin-bottom: 60px;
+}
+
+.left-pane .container section .content .title {
+  text-transform: lowercase;
+  margin: 0 20px;
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.left-pane .container section .content p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.left-pane .container section .carousel-nav {
+  display: flex;
+}
+.left-pane .container section .carousel-nav div {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.left-pane .container section .carousel-nav div.prev {
+  margin-right: 15px;
+}
+
+.right-pane {
+  width: 55%;
+  height: inherit;
+  overflow: hidden;
+  background-color: rebeccapurple;
+}
